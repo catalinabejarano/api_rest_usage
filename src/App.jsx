@@ -1,7 +1,8 @@
 
-import { ApiCoffeeCarruselBasic } from './components/ApiCoffeeCarruselBasic'
+//import { ApiCoffeeCarruselBasic } from './components/ApiCoffeeCarruselBasic'
+import { CatGalleryFetch } from './components/CatGalleryFetch'
+//import {PokemonAPI} from './components/PokemonAPI'
 import './App.css'
-
 
 function App() {
  
@@ -9,7 +10,9 @@ function App() {
 
   return (
     <>
-      <ApiCoffeeCarruselBasic/>
+  {/*<ApiCoffeeCarruselBasic/>*/}
+  <CatGalleryFetch/>
+  {/*<PokemonAPI/>*/}
     
     </>
   )

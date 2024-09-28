@@ -19,7 +19,8 @@ export const ApiCoffeeCarruselBasic = () => {
     fetchData();
   }, []);
 
-  console.log(coffeeList);
+  //datos de del fetch
+  //console.log(coffeeList);
 
   return  (
   <div className="container-fluid p-0">
